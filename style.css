@@ -1,0 +1,51 @@
+body{
+  font-family:serif;
+  background-color: beige;
+  text-align:;
+  font-weight:340px;
+  }
+.division{
+  height:100%;
+  width:100%;
+  }
+.fieldset{
+  border-radius: 40px;
+  margin:70px;
+  padding:25px 35px;
+  }
+.FirstName{
+  border-radius:40px;
+  margin:5px;
+  padding: 10px 15px;
+  }
+.LastName{
+  border-radius:40px;
+  margin:5px;
+  padding: 10px 15px;
+  }
+.password {
+  border-radius:40px;
+  margin:5px;
+  padding: 10px 15px;
+  }
+.phone{
+  border-radius:40px;
+  margin:5px;
+  padding: 10px 15px;
+  }
+.decade{
+  border-radius:40px;
+  margin:5px;
+  padding: 10px 15px;
+  }
+.coffee{
+  border-radius:40px;
+  margin:5px;
+  padding: 10px 15px;
+  }
+.submit{
+  background:rgba(178,87,17,0.25);
+  border-radius:50px;
+  margin:15px;
+  padding:20px 20px;
+  }

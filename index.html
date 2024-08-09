@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    </head>
+  <body>
+    <div class="division"
+    <form action="" class="form" method ="get">
+      <fieldset class="fieldset">
+        <legend><h1 class"heading">INFO</h1></legend>
+        <p class = "firstname">
+        <label for="FirstName">First Name:</label>
+        <input type="text" name="FirstName" class = "FirstName" placeholder = "Faiz" autocomplete="on" required autofocus>
+        </p>
+        <p>
+        <label for="LastName">Last Name:</label>
+        <input type="text" name="LastName" class = "LastName" placeholder = "Ahmed"required>
+        </p>
+        <p>
+         <label for="password">Password:</label>
+         <max-length="8">
+        <input type="password" name="password" class = "password" max-length="8" placeholder = "12345478" required>
+        </p>
+          <p>
+         <label for="phone">Telephone number:</label>
+        <input type="tel" name="phone" class = "phone" placeholder = "555-555-5555" pattern = "[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+        </p>
+        <p>
+         <label for="decade">Favourite decade of movies:</label>
+        <input type="number" name="decade" class = "decade" min="1950" max="2020" step="10" value="1970">
+        </p>
+        <p>
+         <label for="Coffee">Coffee:</label>
+          <!---<input type = "text" name = "coffee" class = "coffee" list ="coffee-list">--->
+        <select name="coffee" class = "coffee" multiple size ="5" lim="2">
+          <datalist class="coffee-list">
+          <optgroup label = "COFFEE">
+            <option value ="regularcoffee">Regular Coffee</option>
+            <option value ="instantcaffee">Instant Coffee</option>
+            <option value ="icedcoffee">Iced Coffee</opiton>
+          </optgroup>
+          
+          <optgroup label = "ESPRESSO DRINKS">
+            <option value ="latte">Latte</option>
+            <option value ="cappuccino">Cappuccino</option>
+            <option value ="americano">Americano</option>
+          </optgroup>
+            <option value ="other">Other</option>
+          </datalist>
+         </select>
+        </p>
+        </fieldset>
+        <fieldset class="fieldset">
+          <legend><h1>FAVOURITE FOOD</h1></legend>
+          <p>
+              <input type = "radio" name="food" class = "tacos" value = "tacos">
+            <label for= "tacos">Tacos</label>
+        <p>
+          <p>
+              <input type = "radio" name="food" class = "pizza" value = "pizza">
+            <label for= "pizza">Pizza</label>
+        <p>
+        <input type="submit" value="Let's Go" class="submit">
+      </fieldset>
+    </form>
+   </div>
+  </body>
+ </html>
